@@ -23,6 +23,7 @@ add_executable(Illumine
         dependencies/imgui/imgui_widgets.cpp
         dependencies/imgui/imgui_impl_glfw.cpp
         dependencies/imgui/imgui_impl_vulkan.cpp
+        src/IllumineApplication.cpp
 )
 
 target_include_directories(Illumine PRIVATE
