@@ -2,11 +2,6 @@
 
 int main()
 {
-    uint32_t version;
-    vkEnumerateInstanceVersion(&version);
-    std::cout << "Vulkan version: "
-              << VK_VERSION_MAJOR(version) << "."
-              << VK_VERSION_MINOR(version) << "."
-              << VK_VERSION_PATCH(version) << "\n";
+    std::cout << "Hello World!" << std::endl;
     return 0;
 }
