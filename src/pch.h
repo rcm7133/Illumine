@@ -14,6 +14,11 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <cstdint>
+#include <limits>
+#include <algorithm>
+#include <fstream>
+#include <stdexcept>
 
 #define STB_IMAGE_IMPLEMENTATION
 #include "../dependencies/stbimage/stb_image.h"
